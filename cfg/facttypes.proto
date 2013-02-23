@@ -1,0 +1,9 @@
+import "base.proto";           // описание protobuf-типов
+import "facttypes_base.proto"; // описание protobuf-типа NFactType.TFact
+message Name: NFactType.TFact 
+{
+    optional string F = 1;
+    optional string I = 2;
+    optional string O = 3; 
+    optional string Type = 4;    
+}
